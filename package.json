@@ -4,6 +4,7 @@
     "description": "Grimoire.js Helper extension. Syntax highlight and GOML snnipets.",
     "version": "0.0.1",
     "publisher": "m2wasabi",
+    "icon": "images/grimoirejs.png",
     "engines": {
         "vscode": "^1.5.0"
     },
