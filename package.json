@@ -1,5 +1,5 @@
 {
-    "name": "grimoire-js",
+    "name": "grimoire-js-helper",
     "displayName": "Grimoire.js Helper",
     "description": "Grimoire.js Helper extension. Syntax highlight and GOML snnipets.",
     "version": "0.0.1",
