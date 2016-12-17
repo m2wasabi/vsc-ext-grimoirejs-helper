@@ -1,0 +1,144 @@
+{
+    "GOML": {
+        "prefix": "goml",
+        "body": [
+            "<goml width=\"fit\" height=\"fit\">",
+            "    $1",
+            "</goml>"
+        ],
+        "description": "goml tag"
+    },
+    "scene": {
+        "prefix": "scene",
+        "body": [
+            "<scene>",
+            "    $1",
+            "</scene>"
+        ],
+        "description": "scene tag"
+    },
+    "camera": {
+        "prefix": "camera",
+        "body": [
+            "</camera>"
+        ],
+        "description": "GOML Snippet: Camera"
+    },
+    "camera fixed": {
+        "prefix": "camera-fix",
+        "body": [
+            "<camera class=\"camera\" near=\"0.01\" far=\"40.0\" aspect=\"1.5\" fovy=\"45d\" position=\"0,0,20\">",
+            "</camera>"
+        ],
+        "description": "GOML Snippet: Angle fixed camera"
+    },
+    "camera mouse control": {
+        "prefix": "camera-mouse",
+        "body": [
+            "<camera class=\"camera\" near=\"0.01\" far=\"40.0\" aspect=\"1.5\" fovy=\"45d\" position=\"0,0,20\">",
+            "    <camera.components>",
+            "        <MouseCameraControl/>",
+            "    </camera.components>",
+            "</camera>"
+        ],
+        "description": "GOML Snippet: Mouse rotatable camera"
+    },
+    "geometry": {
+        "prefix": "geo",
+        "body": [
+            "<geometry name=\"$1\" type=\"$2\" />$3"
+        ],
+        "description": "GOML Snippet: Geometry"
+    },
+    "geometry triangle": {
+        "prefix": "geo-triangle",
+        "body": [
+            "<geometry name=\"$1\" type=\"triangle\" />$2"
+        ],
+        "description": "GOML Snippet: Geometry [triangle]"
+    },
+    "geometry quad": {
+        "prefix": "geo-quad",
+        "body": [
+            "<geometry name=\"$1\" type=\"quad\" />$2"
+        ],
+        "description": "GOML Snippet: Geometry [quad]"
+    },
+    "geometry cube": {
+        "prefix": "geo-cube",
+        "body": [
+            "<geometry name=\"$1\" type=\"cube\" />$2"
+        ],
+        "description": "GOML Snippet: Geometry [cube]"
+    },
+    // Geometry
+    "geometry sphere": {
+        "prefix": "geo-sphere",
+        "body": [
+            "<geometry name=\"$1\" type=\"sphere\" divHorizontal=\"$2\" divVertical=\"$3\" />$4"
+        ],
+        "description": "GOML Snippet: Geometry [sphere]"
+    },
+    "geometry circle": {
+        "prefix": "geo-circle",
+        "body": [
+            "<geometry name=\"$1\" type=\"circle\" divide=\"$2\" />$3"
+        ],
+        "description": "GOML Snippet: Geometry [circle]"
+    },
+    "geometry cylinder": {
+        "prefix": "geo-cylinder",
+        "body": [
+            "<geometry name=\"$1\" type=\"cylinder\" divide=\"$2\" />$3"
+        ],
+        "description": "GOML Snippet: Geometry [cylinder]"
+    },
+    "geometry cone": {
+        "prefix": "geo-cone",
+        "body": [
+            "<geometry name=\"$1\" type=\"cone\" divide=\"$2\" />$3"
+        ],
+        "description": "GOML Snippet: Geometry [cone]"
+    },
+    "geometry plane": {
+        "prefix": "geo-plane",
+        "body": [
+            "<geometry name=\"$1\" type=\"plane\" divide=\"$2\" />$3"
+        ],
+        "description": "GOML Snippet: Geometry [plane]"
+    },
+    // material
+    "material": {
+        "prefix": "material",
+        "body": [
+            "<material id=\"$1\" type=\"$2\" $3/>$4"
+        ],
+        "description": "GOML Snippet: Material"
+    },
+    // mesh
+    "mesh": {
+        "prefix": "mesh",
+        "body": [
+            "<mesh color=\"$1\" position=\"$2,$3,$4\" geometry=\"$5\"/>$6"
+        ],
+        "description": "GOML Snippet: Mesh"
+    },
+    "mesh redcube": {
+        "prefix": "mesh-redcube",
+        "body": [
+            "<mesh color=\"red\" position=\"0,0,0\" geometry=\"cube\"/>$1"
+        ],
+        "description": "GOML Snippet: Mesh [red cube]"
+    },
+    "mesh with component": {
+        "prefix": "mesh-component",
+        "body": [
+            "<mesh color=\"$1\" position=\"$2,$3,$4\" geometry=\"$5\"/>",
+            "  <mesh.components>",
+            "    $6",
+            "  </mesh.components>",
+            "</mesh>$7"
+        ],
+        "description": "GOML Snippet: Mesh with component"
+    }
+}
