@@ -2,7 +2,7 @@
     "name": "grimoire-js-helper",
     "displayName": "Grimoire.js Helper",
     "description": "Grimoire.js Helper extension. Syntax highlight and GOML snnipets.",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "publisher": "m2wasabi",
     "icon": "images/grimoirejs.png",
     "engines": {
@@ -16,24 +16,35 @@
         "languages": [
             {
                 "id": "goml",
-                "aliases": [ "GOML", "goml" ],
-                "extensions": [".goml"],
+                "aliases": [
+                    "GOML",
+                    "goml"
+                ],
+                "extensions": [
+                    ".goml"
+                ],
                 "firstLine": "(\\<\\goml.*)",
                 "configuration": "./language-configuration.json"
             },
             {
                 "id": "glsl",
-                "extensions": [".sort"]
+                "extensions": [
+                    ".sort"
+                ]
             }
         ],
-        "grammars": [{
-            "language": "goml",
-            "scopeName": "text.xml.goml",
-            "path": "./syntaxes/goml.json"
-        }],
-        "snippets": [{
-            "language": "goml",
-            "path": "./snippets/snippets.json"
-        }]
+        "grammars": [
+            {
+                "language": "goml",
+                "scopeName": "text.xml.goml",
+                "path": "./syntaxes/goml.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "goml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
     }
 }

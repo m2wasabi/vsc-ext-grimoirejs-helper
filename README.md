@@ -14,7 +14,11 @@ This extension requires Shader languages support for VS Code.
 
 ## Release Notes
 
-### 0.0.1
+### 0.1.1
+
+- GOML Snnipets &lt;camera&gt; remove unnecessary parameters.
+
+### 0.1.0
 
 Initial release 
 - GOML syntax highlights
