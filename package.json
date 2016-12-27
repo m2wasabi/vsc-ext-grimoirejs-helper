@@ -2,7 +2,7 @@
     "name": "grimoire-js-helper",
     "displayName": "Grimoire.js Helper",
     "description": "Grimoire.js Helper extension. Syntax highlight and GOML snnipets.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "m2wasabi",
     "icon": "images/grimoirejs.png",
     "engines": {

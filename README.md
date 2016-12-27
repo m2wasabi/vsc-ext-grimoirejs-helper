@@ -14,6 +14,10 @@ This extension requires Shader languages support for VS Code.
 
 ## Release Notes
 
+### 0.1.2
+
+- Fixed Snnipet camera tag. Wrong closing tag.
+
 ### 0.1.1
 
 - GOML Snnipets &lt;camera&gt; remove unnecessary parameters.
