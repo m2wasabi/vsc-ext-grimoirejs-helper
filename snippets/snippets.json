@@ -20,7 +20,7 @@
     "camera": {
         "prefix": "camera",
         "body": [
-            "</camera>"
+            "<camera>"
         ],
         "description": "GOML Snippet: Camera"
     },
